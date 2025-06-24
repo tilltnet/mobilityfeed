@@ -1,15 +1,16 @@
 
-# mobilityfeed
+# mobilityfeed :package:
 
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of mobilityfeed is to provide functions to interact with the [Mobility 
+The goal of {mobilityfeed} is to provide functions to interact with the [Mobility 
 Database Catalog API](https://mobilitydata.github.io/mobility-feed-api/SwaggerUI/index.html).
 
 Please refer to [https://mobilitydatabase.org/](https://mobilitydatabase.org/) for more information.
 
-This is an early development version using `v1` of the mobility database catalog API.
+> [!NOTE]
+> This is an early development version using `v1` of the mobility database catalog API.
 
 ## Installation
 
@@ -23,7 +24,7 @@ remotes::install_github("tilltnet/mobilityfeed")
 
 To use the mobility database catalog API you'll need to register an account at
 [https://mobilitydatabase.org/](https://mobilitydatabase.org/) and obtain a refresh
-token. The Refresh Token will allow to obtain access/bearer tokens to interact 
+token. The Refresh Token will allow you to obtain access/bearer tokens to interact 
 with the API.
 
 It is recommended to store your refresh token as an environment variable called 
@@ -37,8 +38,9 @@ file.
 MOBILITY_FEED_API_REFRESH_TOKEN="<YOUR-REFRESH-TOKEN-HERE>"
 ```
 
-This is a basic example which shows you how to obtain the details URLs to the 
-first 3 official GTFS feeds for Oregon and download the corresponding feed files:
+This is a basic example which shows you how to obtain the details (including 
+download URLs) to the first 3 official GTFS feeds for Oregon and download the 
+corresponding feed files:
 
 ``` r
 library(mobilityfeed)
@@ -54,3 +56,4 @@ download_feeds(gtfs_oregon, "path/to/folder")
 - [ ] Add Examples to function docs
 - [ ] automatically refresh bearer token when expired
 - [ ] create pkgdown page
+- [ ] create/add hex sticker
