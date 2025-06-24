@@ -1,0 +1,21 @@
+Package: mobilityfeed
+Type: Package
+Title: Wrapper for the Mobility Database Catalog API
+Version: 0.1.0
+Author: Till Krenz
+Maintainer: Till Krenz <dev@tillt.net>
+Description: Provides functions to interact with the Mobility Database Catalog 
+             API and download GTFS files, GTFS real-time files, and GBFS files.
+License: MIT
+Imports: 
+    jsonlite,
+    purrr,
+    tibble
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Depends: 
+    httr2
+RoxygenNote: 7.3.2
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
