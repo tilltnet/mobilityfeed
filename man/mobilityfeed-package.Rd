@@ -8,4 +8,12 @@
 \description{
 Wrapper for the Mobility Database Catalog API. The \href{https://mobilitydatabase.org/}{Mobility Database} aggregates data feeds for public transit mobility data including GTFS feeds, real-time GTFS feeds, and GBFS feeds.
 }
+\seealso{
+Useful links:
+\itemize{
+  \item \url{https://github.com/tilltnet/mobilityfeed}
+  \item Report bugs at \url{https://github.com/tilltnet/mobilityfeed/issues}
+}
+
+}
 \keyword{internal}
