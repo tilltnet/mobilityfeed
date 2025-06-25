@@ -1,7 +1,7 @@
 #' Download GTFS, real-time GTFS, and GBFS feed files
 #'
-#' This is a helper function to download feed files from URLs obtained with any of the
-#' `get_*_feed()` functions from the `mobilityfeed` package.
+#' This is a helper function to download feed files from URLs obtained with any
+#' of the `get_*_feed()` functions from the `mobilityfeed` package.
 #' @param feeds_tbl `Tibble` of feed details.
 #' @param download_path `Character.` Path to download location.
 #' @param source `Character.` If `source = "provider"` will use `producer_url` for download, if `source = "hosted"` will use `latest_dataset_hosted_url`. Default: "provider".

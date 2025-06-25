@@ -4,7 +4,6 @@
 #' @inheritParams get_gtfs_feeds
 #' @inherit get_gtfs_feeds return
 #' @export
-#' @export
 get_feeds <- function(limit = 10,
                       offset = 0,
                       status = NULL,
